@@ -12,6 +12,9 @@
 		1F41CA1D219B3BAA00543300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F41CA1B219B3BAA00543300 /* Main.storyboard */; };
 		1F41CA1F219B3BAD00543300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F41CA1E219B3BAD00543300 /* Assets.xcassets */; };
 		1F41CA22219B3BAD00543300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F41CA20219B3BAD00543300 /* LaunchScreen.storyboard */; };
+		1F41CA2C219C8C9500543300 /* FilterManagerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41CA2B219C8C9400543300 /* FilterManagerAPI.swift */; };
+		1F41CA2E219C8CCF00543300 /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41CA2D219C8CCF00543300 /* FilterType.swift */; };
+		1F41CA30219C8CF700543300 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41CA2F219C8CF700543300 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1F41CA1E219B3BAD00543300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F41CA21219B3BAD00543300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F41CA23219B3BAD00543300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F41CA2B219C8C9400543300 /* FilterManagerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManagerAPI.swift; sourceTree = "<group>"; };
+		1F41CA2D219C8CCF00543300 /* FilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
+		1F41CA2F219C8CF700543300 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				1F41CA1E219B3BAD00543300 /* Assets.xcassets */,
 				1F41CA20219B3BAD00543300 /* LaunchScreen.storyboard */,
 				1F41CA23219B3BAD00543300 /* Info.plist */,
+				1F41CA2B219C8C9400543300 /* FilterManagerAPI.swift */,
+				1F41CA2D219C8CCF00543300 /* FilterType.swift */,
+				1F41CA2F219C8CF700543300 /* Filter.swift */,
 			);
 			path = FunctionalCoreImage;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F41CA1A219B3BAA00543300 /* ViewController.swift in Sources */,
+				1F41CA30219C8CF700543300 /* Filter.swift in Sources */,
 				1F41CA18219B3BAA00543300 /* AppDelegate.swift in Sources */,
+				1F41CA2C219C8C9500543300 /* FilterManagerAPI.swift in Sources */,
+				1F41CA2E219C8CCF00543300 /* FilterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
